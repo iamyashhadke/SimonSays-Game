@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+.btn{
+    height: 150px;
+    width: 150px;
+    border:0.7px solid black;
+    /* border-radius: 20px; */
+    /* margin: 1rem ; */
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center; 
+}
+
+.red{
+    border-radius: 150px 0 0 0;
+    background-color: rgb(255, 74, 74);
+}
+
+.orange{
+    border-radius: 0 0 0 150px;
+    background-color: rgb(255, 122, 74);
+}
+
+.green{
+    border-radius: 0 150px 0 0;
+    background-color: rgb(74, 255, 74);
+}
+
+.blue{
+    border-radius: 0 0 150px 0;
+    background-color: rgb(74, 74, 250);
+}
+
+.flash{
+    background-color: white ;
+}
+
+.user-flash{
+    background-color: rgb(0, 255, 0) ;
+}
